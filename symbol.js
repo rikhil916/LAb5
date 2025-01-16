@@ -32,7 +32,7 @@ const MyClass = {
       return {
         next: () => {
           if (index < this.items.length) {
-            return { value: this.items[index++], done: false };
+             return { value: this.items[index++], done: false };
           }
           return { done: true };
         }
