@@ -1,4 +1,4 @@
-// Simulating an async task with setTimeout
+ 
 function getUserData(callback) {
     setTimeout(() => {
       console.log("User data fetched");
